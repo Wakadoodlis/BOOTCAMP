@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Pokemon</title>
+  <title>Form</title>
 </head>
 
 <body>
@@ -26,7 +26,7 @@
   <p>Make sure to follow me on <a href="http://www.twitter.com">twitter</a></p> -->
 
 
-<h1>First Gen Pokemon Chart</h1>
+  <!-- <h1>First Gen Pokemon Chart</h1>
 
   <table border="3">
     <thead>
@@ -77,9 +77,84 @@
 
     </tbody>
 
-  </table>
+  </table> -->
+
+  <h1>Register</h1>
+
+  <form action="#">
+    <div class="pers-data">
+      <label for="name">First Name:</label>
+      <input id="Name" type="text" placeholder="Your name" required>
+
+      <label for="last-name">Last Name:</label>
+      <input id="last-name" type="text" placeholder="Your last name" required>
+
+    </div>
+
+    <!-- -===== RADIO ====- -->
+    <div class="your-gender">
+      <label for="gender">Male</label>
+      <input name="yourGender" id="gender" type="radio" value="MALE">
+
+      <label for="gender">Female</label>
+      <input name="yourGender" id="gender" type="radio" value="FEMALE">
+
+      <label for="gender">Other</label>
+      <input name="yourGender" id="gender" type="radio" value="OTHER">
+    </div>
+
+    <!-- -===== Email ====- -->
+    <div class="email">
+      <label for="email">Email:</label>
+      <input id="email" type="email" required>
+
+      <label for="password">Password:</label>
+      <input id="password" type="password" required minlength="6" maxlength="10">
+    </div>
+
+    <!-- -===== birthday date ====- -->
+    <div class="birthday">
+      <label for="birthday">Birthday:</label>
+
+      <select name="month" id="birthday">
+        <option value="">April</option>
+        <option value="">June</option>
+        <option value="">July</option>
+        <option value="">August</option>
+        <option value="">September</option>
+        <option value="">October</option>
+      </select>
+
+      <select name="day" id="birthday">
+        <option value="">Day</option>
+        <option value="">2</option>
+        <option value="">3</option>
+        <option value="">4</option>
+        <option value="">5</option>
+        <option value="">6</option>
+      </select>
+
+      <select name="year" id="birthday">
+        <option value="">Year</option>
+        <option value="">2000</option>
+        <option value="">2001</option>
+        <option value="">2012</option>
+        <option value="">2013</option>
+        <option value="">2018</option>
+      </select>
+
+    </div>
+    <!-- -===== terms and conditions ====- -->
+    <div class="conditions">
+      I agree to the terms and conditions
+      <input type="checkbox">
+    </div>
+
+    <!-- -===== button ====- -->
+    <input type="submit">
+
+  </form>
 
 </body>
 
 </html>
-
