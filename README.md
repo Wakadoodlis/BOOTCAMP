@@ -5,6 +5,7 @@
 Bootcamp assigments and codding. All files, projects, assignments will be here.
 
 -====   INTRO AND INTERMEDIATE HTML  ====-
+
 1.introHTML - all assigments from intro and advance html; 
   - #2 my dog;
   - #3 pokemons;
