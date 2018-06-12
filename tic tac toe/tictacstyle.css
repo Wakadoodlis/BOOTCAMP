@@ -6,7 +6,7 @@ h1 {
 
 
 table {
-  margin: 0 auto;
+  margin:auto;
 }
 
 td {
@@ -14,36 +14,16 @@ td {
   height: 100px;
 }
 
-/* antras */
-.first td:nth-of-type(2) {
+.vertical {
   border-left:2px solid black;
-  border-right:2px solid black;
+  border-right:2px solid black
 }
 
-/* ketvirtas */
-.secand td:nth-of-type(1){
-  border-top:2px solid black;
-  border-bottom:2px solid black;
-}
-/* penktas */
-.secand td:nth-of-type(2){
-  border-left:2px solid black;
-  border-right:2px solid black;
-  border-top:2px solid black;
-  border-bottom:2px solid black;
-}
-/* sestas */
-.secand td:nth-of-type(3){
+.horizantal {
   border-top:2px solid black;
   border-bottom:2px solid black;
 }
 
-/* astuntas */
-.third td:nth-of-type(2) {
-  border-left:2px solid black;
-  border-right:2px solid black;
- 
-}
 
 
 
