@@ -4,43 +4,26 @@ h1 {
   text-align: center;
 }
 
-div {
-  width: 60%;
-  margin: 0 auto;
-}
 
 table {
   margin: 0 auto;
 }
-/* pirmas */
-.first td:nth-of-type(1) {
 
-  width:100px;
+td {
+  width: 100px;
   height: 100px;
-  
 }
+
 /* antras */
 .first td:nth-of-type(2) {
   border-left:2px solid black;
   border-right:2px solid black;
-  width:100px;
-  height: 100px;
-  
 }
-/* trecias */
-.first td:nth-of-type(3) {
-  
-  width:100px;
-  height: 100px;
-}
-
 
 /* ketvirtas */
 .secand td:nth-of-type(1){
   border-top:2px solid black;
   border-bottom:2px solid black;
-  width:100px;
-  height: 100px;
 }
 /* penktas */
 .secand td:nth-of-type(2){
@@ -48,38 +31,20 @@ table {
   border-right:2px solid black;
   border-top:2px solid black;
   border-bottom:2px solid black;
-  width:100px;
-  height: 100px;
 }
 /* sestas */
 .secand td:nth-of-type(3){
   border-top:2px solid black;
   border-bottom:2px solid black;
-  width:100px;
-  height: 100px;
 }
 
-
-
-/* septintas */
-.third td:nth-of-type(1) {
-
-  width:100px;
-  height: 100px;
-}
 /* astuntas */
 .third td:nth-of-type(2) {
   border-left:2px solid black;
   border-right:2px solid black;
-  width:100px;
-  height: 100px;
  
 }
-/* devintas */
-.third td:nth-of-type(3) {
-  
-  width:100px;
-  height: 100px;
-}
+
+
 
 
