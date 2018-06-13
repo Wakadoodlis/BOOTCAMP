@@ -2,15 +2,13 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Lato', sans-serif;
-}
 
-section {
+body {
   width: 95%;
   max-width: 70rem;
   border:20px solid #9e9c9c;
   margin: 0 auto;
+  font-family: 'Lato', sans-serif;
   
 }
 .container {
@@ -36,7 +34,7 @@ p {
   font-size: 2.2rem;
 }
 
-.first-letter::first-letter {
+div p::first-letter {
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -57,6 +55,8 @@ hr.style-two {
 .first-article a {
   text-decoration: none;
 }
+
+/*  RESPONSIVE LAYOUT  */
 
 @media (max-width:35rem) {
   .date {
