@@ -14,6 +14,7 @@ introHTML - all assigments from intro and advance html;
 -====   INTRO AND INTERMEDIATE CSS ====-
 
 introCSS - all assigmens from intro and advance CSS; 
-  - #2 ;
-  - #3 ;
-  - #4 ;
+  - #1 Selector exercise;
+  - #2 Tic tac toe;
+  - #3 photo grid layout;
+  - #4 article vlog exercise.
