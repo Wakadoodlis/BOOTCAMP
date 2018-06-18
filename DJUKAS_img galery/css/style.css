@@ -1,9 +1,15 @@
 
 
 /* LOGO */
+body {
+  padding-top: 130px;
+  font-family: 'Raleway', sans-serif;
+
+}
 
 .logo {
-  width:70%;
+  width:35%;
+  border-radius: 50%;
 }
 
 .brand-logo {
@@ -12,22 +18,39 @@
 
 /* navas */
 
-#navas {
-  background-color: white !important;
+.bg-light {
+  background-color: rgb(96, 141, 92) !important;
 }
 
 /* jumbo */
+.jumbotron {
+  padding-bottom: 1rem;
+  background-color: #ecf3ec;
+}
 
-#jumba {
-  background-color: white !important;
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 1.1em;
+  font-weight: 400;
+  word-spacing: .5em;
+  letter-spacing: .2em;
 
 }
 
-/* .photo {
-padding-right:.3em;
+
+.display-4 {
+  font-size:5em;
+  font-weight:800;
 }
 
-.photo_grid img {
-  width: 24em;
-  padding: 1em;
-} */
+.nav-link:hover {
+  color:#fff !important;
+  transition: .6s !important;
+}
+
+.footer {
+  background-color: rgb(96, 141, 92);
+  padding: 0.5rem;
+  text-align: center;
+}
