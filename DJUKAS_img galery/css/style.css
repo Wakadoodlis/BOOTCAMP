@@ -1,12 +1,13 @@
 
 
-/* LOGO */
+
 body {
   padding-top: 130px;
   font-family: 'Raleway', sans-serif;
 
 }
 
+/* LOGO -ICCON*/
 .logo {
   width:35%;
   border-radius: 50%;
@@ -16,10 +17,28 @@ body {
   width:10rem;
 }
 
+
+.padd_icon {
+  padding: .5em;
+}
+
 /* navas */
 
 .bg-light {
   background-color: rgb(96, 141, 92) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 1.1em;
+  font-weight: 400;
+  word-spacing: .5em;
+  letter-spacing: .2em;
+}
+
+.nav-link:hover {
+  color:#fff !important;
+  transition: .6s !important;
 }
 
 /* jumbo */
@@ -28,25 +47,10 @@ body {
   background-color: #ecf3ec;
 }
 
-
-.navbar-light .navbar-nav .nav-link {
-  color: black;
-  font-size: 1.1em;
-  font-weight: 400;
-  word-spacing: .5em;
-  letter-spacing: .2em;
-
-}
-
-
+/* jumbo title */
 .display-4 {
   font-size:5em;
   font-weight:800;
-}
-
-.nav-link:hover {
-  color:#fff !important;
-  transition: .6s !important;
 }
 
 .footer {
@@ -54,4 +58,19 @@ body {
   padding: 0.5rem;
   text-align: center;
   margin-top:.8em;
+}
+/* crazy photo */
+.djukas {
+  width: 10%;
+  border-radius: 50%;
+}
+
+/* button */
+.btn, .btn-info {
+  color: rgb(96, 141, 92);
+  border-color: rgb(96, 141, 92);
+}
+
+.btn:hover {
+  background-color:rgb(96, 141, 92);
 }
