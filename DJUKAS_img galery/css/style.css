@@ -1,0 +1,33 @@
+
+
+/* LOGO */
+
+.logo {
+  width:70%;
+}
+
+.brand-logo {
+  width:10rem;
+}
+
+/* navas */
+
+#navas {
+  background-color: white !important;
+}
+
+/* jumbo */
+
+#jumba {
+  background-color: white !important;
+
+}
+
+.photo {
+padding-right:.3em;
+}
+
+.photo_grid img {
+  width: 24em;
+  padding: 1em;
+}
