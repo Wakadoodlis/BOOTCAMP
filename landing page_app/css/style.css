@@ -1,0 +1,68 @@
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .9) ), url("../img/landing.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+html {
+  height: 100%;
+}
+
+/* BUTTONS */
+
+.btn-red {
+  background-color:rgba(167, 42, 42, 0.925)!important;
+  color:#fff;
+}
+
+.btn:hover {
+  border: 1px solid #fff;
+  transition: .5s !important;
+}
+
+
+/* TITLE */
+.title-name {
+  padding-top: 25%;
+  text-align: center;
+  color: #fff;
+}
+
+.title-name h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size:2.4rem;
+}
+
+hr {
+  width: 50%;
+  border-color:#fff;
+  border-radius: 50%;
+}
+
+/* NAVBAR - BACKGROUND -COLORS */
+.bg-light {
+  background-color:rgba(167, 42, 42, 0.925)!important;
+  color:#fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color:#fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color:rgb(190, 184, 184) !important;
+  transition: .5s !important;
+}
+
+/* NAVBAR - BRAND */
+.navbar-brand {
+  border: 1px solid #1d1c1c;
+  padding:.2em;
+  border-radius:30%;
+  background-color:rgb(136, 37, 37);
+}
+
