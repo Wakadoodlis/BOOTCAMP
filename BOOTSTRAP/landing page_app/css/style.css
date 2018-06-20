@@ -1,0 +1,84 @@
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .9) ), url("../img/landing.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+html {
+  height: 100%;
+}
+
+/* BUTTONS */
+
+.btn-red {
+  background-color:rgba(167, 42, 42, 0.925)!important;
+  color:#fff;
+}
+
+.btn:hover {
+  border: 1px solid #fff;
+  transition: .5s !important;
+}
+
+
+/* TITLE */
+.title-name {
+  padding-top: 25%;
+  text-align: center;
+  color: #fff;
+/* triple shadow */
+  text-shadow:0px 4px 3px rgba(87, 85, 85, 0.6),
+              0px 8px 13px rgba(61, 61, 61, 0.2),
+              0px 18px 23px rgba(37, 37, 37, 0.6);
+}
+
+.title-name h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size:2.4rem;
+}
+
+hr {
+  width: 50%;
+  border-color:#fff;
+  border-radius: 50%;
+}
+
+/* NAVBAR - BACKGROUND -COLORS */
+.bg-light {
+  background-color:rgba(167, 42, 42, 0.925)!important;
+  color:#fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color:#fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color:rgb(29, 27, 27) !important;
+  transition: .5s !important;
+}
+
+/* NAVBAR - BRAND */
+.navbar-brand {
+  border: 1px solid #333;
+  padding:.2em;
+  border-radius:30%;
+  background-color:rgb(136, 37, 37);
+}
+
+/* LOGIN / SIGN IN */
+/* .navbar-collapse .navbar-nav .nav-right .nav-link {
+  display: inline !important;
+  font-size:.8em;
+} */
+
+.fa-user, .fa-users {
+  /* color:black; */
+  /* padding-left: .2em;
+  font-size: .9em; */
+}
+
