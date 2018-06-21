@@ -20,5 +20,10 @@ introCSS - all assigmens from intro and advance CSS;
   - #4 article vlog exercise.
 
   -====   Bootstrap  ====-
+  - #1 Djukas photo grid;
+  - #2 Landing page;
+
+
+-====   INTRO JAVASCRIPT ====-
   - #1 ;
   - #2 ;
