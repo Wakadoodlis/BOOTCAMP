@@ -13,16 +13,21 @@
 
 // ------======  How long are You living on earth ====-----=-=
 
-var age = prompt("What is your age?");
+var name = prompt( "Hello, my name is Mac. What is your name ?");
+var age = prompt("Nice to meet You " +name+ ". "+ "Could I ask You, what is Your age?");
 var yourDaysOnErth = age * 365;
 
-alert( "You have been living for roughly " +yourDaysOnErth+ " days on Earth");
+alert( "oh, You are so young! You are living on earth just roughly " +yourDaysOnErth+ " days.");
 
-var husbandAge = prompt("What is your's husbund age?");
+var married = prompt("Are You single or married?")
+var husbandName =  prompt("oh what a shame... What is Your husband's name then? ")
+
+var husbandAge = prompt("What is " +husbandName+ " " + "age?");
 var YourHusbandAgeOnEarth = husbandAge * 365;
 var youAreOlder = yourDaysOnErth - YourHusbandAgeOnEarth;
 
-alert("You are living " +youAreOlder+ " days longer then your husband on Earth");
-alert("CONGRUDALATIONS - You are smarter then Your husband");
-alert("Don't laught - A am a computer, I am smarter then You");
-alert("cha cha. It was a joke, dont smash me. Please");
+alert("Perdon? so You are older then " +husbandName+ " " +"for " +youAreOlder+ " days...");
+
+alert(" and because You are older - You are also and SMARTER,CONGRUTALATIONS");
+
+alert("It was nice to talk with You " +name+ " ! See You next time.")
