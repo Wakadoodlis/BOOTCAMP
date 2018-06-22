@@ -28,6 +28,11 @@ var youAreOlder = yourDaysOnErth - YourHusbandAgeOnEarth;
 
 alert("Perdon? so You are older then " +husbandName+ " " +"for " +youAreOlder+ " days...");
 
-alert(" and because You are older - You are also and SMARTER,CONGRUTALATIONS");
+alert(" and because You are older - You are also SMARTER,CONGRUTALATIONS !! :) ");
 
-alert("It was nice to talk with You " +name+ " ! See You next time.")
+alert("You know what " +name+ " ?" +" I made some looking into inthernet while we were talking, and I found You and " +husbandName+ ".");
+
+prompt( "You two are very beautiful couple. Do You love him ?");
+
+
+alert(" oh shout, look what the time. I have to go. It was nice to talk with You " +name+ " ! See You next time. ")
