@@ -36,3 +36,5 @@ prompt( "You two are very beautiful couple. Do You love him ?");
 
 
 alert(" oh shout, look what the time. I have to go. It was nice to talk with You " +name+ " ! See You next time. ")
+
+alert(" By the way... I think He loves You too :) Just look at You twoo! You love birds... :) ok, its time for me to go...Bye ;) p.s. this photo I found was in the 'couples for ever' photo section of the whole inthernet ;) see by Yourself, just press 'ok' ;) ");
