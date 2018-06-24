@@ -70,3 +70,7 @@ hr {
   background-color:rgb(136, 37, 37);
 }
 
+
+.clearfix{
+  clear: both;
+}
