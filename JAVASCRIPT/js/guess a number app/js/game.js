@@ -7,14 +7,44 @@ var correctNumber = 6;
 var stringNumber = prompt( "Guess a number! ");
 var number = Number(stringNumber);
 // check if user guess it
-if(number===correctNumber) {
+// if(number===correctNumber) {
+//   alert("YOU WON! It is a correct number");
+// }
+// IF number to big loop:
+while(number>correctNumber || number<correctNumber ){
+  if(number>correctNumber) {
+    alert("Your number " +number+ " to big. Try again")
+}
+  
+
+  if(number<correctNumber) {
+    alert("Your number " +number+ " to low. Try again")
+  }
+
+  if(number===correctNumber) {
   alert("YOU WON! It is a correct number");
 }
-// IF number to big:
-else if(number>correctNumber){
-  alert("Your number " +number+ " to big. Try again"); 
+
+  var stringNumber = prompt( "Guess a number! ")
+  var number = Number(stringNumber); 
 }
-// IF number to low
-else {
-  alert( "Your number " +number+ " to low. Try again");
+
+
+
+// IF number to low loop
+while(number<correctNumber){
+  alert("Your number " +number+ " to low. Try again")
+  var stringNumber = prompt( "Guess a number! ")
+  var number = Number(stringNumber); 
+  if(number===correctNumber) {
+    alert("YOU WON! It is a correct number");
+  }
 }
+
+
+// while(num <= 40) {
+//   if(num % 2 === 0){
+//   console.log(num);
+// }
+//   num+=1
+// }
