@@ -1,7 +1,7 @@
-alert("This is 'Gues a number game'. You have to gues a number from 0 to 10. If You succeed, you will feel satisfaction :) ")
+alert("This is 'Gues a number game'. You have to gues a number from 0 to 10. You will get a hint, if You guess wrong. If You succeed, you will feel satisfaction :) ")
 
 // sukuriam skaiciu
-var correctNumber = 6;
+var correctNumber = 7;
 
 // vartotojas speja
 var stringNumber = prompt( "Guess a number! ");
