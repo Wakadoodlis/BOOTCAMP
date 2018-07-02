@@ -35,8 +35,11 @@ for(var num = -10; num<= 19; num++) {
 
 // FOR LOOP
 
-for(var num = 10; num <= 40; num+=2) {
-  console.log(num);
+for(var num = 10; num <= 40; num + 1) {
+  if(num % 2 === 0){
+    console.log(num); 
+  }
+ 
 }
 
 
@@ -56,8 +59,10 @@ for(var num = 10; num <= 40; num+=2) {
 
 // FOR LOOP
  
-for(var num =300; (num<= 333) num % 2 !==0; num+=1 ) {
-  console.log(num);
+for(var num =300; num <= 333; num ++ ) {
+  if(num % 2 !==0) {
+  console.log(num)
+  }
 }
 
 // // Print all numbers divisible by 5 and 3 between 5 and 50
@@ -77,6 +82,8 @@ for(var num =300; (num<= 333) num % 2 !==0; num+=1 ) {
 
 // FOR LOOP
 
-for (var num =5; (num<=50) num % 5 === 0 && num % 3 ===0) {
-  console.log(num);
+for (var num =5; num <= 50; num ++) {
+  if(num%5 ===0 && num % 3 === 0) {
+    console.log(num)
+  }
 }
