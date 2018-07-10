@@ -27,3 +27,6 @@ introCSS - all assigmens from intro and advance CSS;
 -====   INTRO JAVASCRIPT ====-
   - #1  full name;
   - #2 living on earth app;
+  - #3 Annoy- auto;
+  - #4 Guess a number;
+  - #5 Loops.
