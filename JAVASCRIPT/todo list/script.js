@@ -21,7 +21,7 @@ window.setTimeout(function() {
       // add the new todo to the todos array
       todos.push(newTodo);
     } else if(input !== "list" && input !== "new") {
-      alert("In order to use this app, please use 'new', 'list' or 'quit' function from the instruction ")
+      alert("In order to use this app, please use 'new', 'list' or 'quit' functions from the instruction ")
     } 
     if(todos == ""){
       alert ("Your list is empty")
