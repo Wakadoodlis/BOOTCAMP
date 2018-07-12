@@ -20,6 +20,8 @@ window.setTimeout(function() {
       var newTodo = prompt("Enter new 'Todo' ")
       // add the new todo to the todos array
       todos.push(newTodo);
+    } else if(input !== "list" && input !== "new") {
+      alert("In order to use this app, please use 'new', 'list' or 'quit' function from the instruction ")
     } 
     if(todos == ""){
       alert ("Your list is empty")
