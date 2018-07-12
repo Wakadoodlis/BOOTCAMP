@@ -1,6 +1,10 @@
-// create an array 
+// TODO application.
+
+
+// setTime function, kad html greiciau uzsikrautu del prompt ir alert.
 
 window.setTimeout(function() {
+  // creating an array 
   var todos = [];
 
   // ask user for input
