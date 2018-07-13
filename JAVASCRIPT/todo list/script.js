@@ -28,7 +28,7 @@ window.setTimeout(function() {
   // if while loop is false
   alert( "You just quit the 'Todo' app");
 
-
+// creating functions that code would be dry
   function listTodos(){
     console.log("************");
     todos.forEach(function(todo, i){
