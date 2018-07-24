@@ -18,3 +18,9 @@ function isUniform(arr) {
   }
   return true;
 }
+
+//  ====-- sumArray ---==== - ir will take alements from arrau and sums one each ather, and we will get the result.
+
+function sumArray(arr) {
+  
+}
