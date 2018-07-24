@@ -11,7 +11,7 @@ for(var i = arr.length - 1; i >=0; i--) {
 
 function isUniform(arr) {
   var seka = arr[0];
-  for (var i = 1; i > arr.length; i++) {
+  for (var i = 1; i < arr.length; i++) {
     if( arr[i] !== seka) {
       return false;
     }
@@ -22,5 +22,9 @@ function isUniform(arr) {
 //  ====-- sumArray ---==== - ir will take alements from arrau and sums one each ather, and we will get the result.
 
 function sumArray(arr) {
-  
+  var total = 0;
+  arr.forEach(function(element){
+    total += element;
+  });
+  return total
 }
